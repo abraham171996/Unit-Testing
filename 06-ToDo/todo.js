@@ -29,7 +29,6 @@ function markTaskAsDone(id) {
         return;
     } else {
         if (id >= 0 && id < allTask.length) {
-            allTask[id].done = true;
             doneTask.push(allTask[id]);
         }
         return doneTask;
