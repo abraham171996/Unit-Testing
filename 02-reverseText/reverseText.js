@@ -2,7 +2,7 @@
 function reverseText(text){
     let textArr = []
     
-   if(typeof text !== "string"){
+   if(typeof text !== "string" || text === ''){
     return 
 
    }

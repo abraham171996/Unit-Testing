@@ -6,7 +6,7 @@ describe("Reverses function:",()=>{
         expect(result).toBe("edoC olleH")
     })
     test("returns undefined for non-string", () => {
-        const nonString = [123, null, undefined, {}, [], true, false];
+        const nonString = [123, null, undefined, {}, [], true, false,''];
     
         nonString.forEach(elem => {
             const result = reverseText(elem);
