@@ -1,5 +1,5 @@
 TN:
-SF:05-mathematical operations\operations.js
+SF:01-mathematical operations\operations.js
 FN:1,add
 FN:5,subtract
 FN:12,multiply
@@ -25,4 +25,24 @@ BRDA:6,1,0,7
 BRDA:6,1,1,7
 BRF:4
 BRH:4
+end_of_record
+TN:
+SF:02-reverseText\reverseText.js
+FN:2,reverseText
+FNF:1
+FNH:1
+FNDA:8,reverseText
+DA:3,8
+DA:5,8
+DA:6,7
+DA:10,1
+DA:11,10
+DA:14,1
+DA:17,1
+LF:7
+LH:7
+BRDA:5,0,0,7
+BRDA:5,0,1,1
+BRF:2
+BRH:2
 end_of_record
